@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Styles.css">
+    <title>Portfolio Daniela</title>
+</head>
+<body>
+  <header>
+    <nav class="navBar">
+        <div class="navList">
+            <ul>
+                       
+                <li><a href="#sobreMi">Sobre mí</a></li>
+                <li><a href="#conocimientos">Conocimientos</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </div>
+        <div class="redesSociales">
+            <ul>
+                <a href="https://github.com/Danialb94" target="_blank">
+                <li><img class="iconoGrande"src="img/github.png" alt="Github"></li>
+                </a>
+                <a href="https://www.linkedin.com/in/daniela-cristina-albarracin-42b860187?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
+                <li><img src="img/linkedin.png" alt="LinkedIn"></li>
+                </a>
+            </ul>
+        </div>
+    </nav>
+  </header>
+<main>
+    <section class="sobreMi" id="sobreMi">
+  <div class="sobreMi_Bloque">
+      <div class="sobreMi_Texto">
+          <h2 class="sobreMi_Presentacion"><span>Hola, Soy Daniela!</span></h2>
+          <p class="sobreMi_Descripcion">
+              Estudiante de la Tecnicatura Universitaria en Programación<br> en la Universidad Tecnológica Nacional.</br>
+                        A través de mi formación estoy desarrollando<br> habilidades en C++, C# y SQL.</br>
+                        Me gusta desarrollar videojuegos, usando el motor de Unity <br>y el lenguaje C#.</br>
+                        Vivo en Buenos Aires, Argentina.
+          </p>
+      </div>
+      <div class="sobreMi_Foto">
+          <img src="img/perfil.jpg" alt="Foto Daniela">
+      </div>
+  </div>
+</section>
+<section class="conocimientos" id="conocimientos">
+  <h2 class="Conocimientos_titulo">Conocimientos</h2>
+  
+  <div class="conocimientos_galeria">
+    <div class="conocimientos_item">
+      <img src="img/cpp.png" alt="C++">
+      <p>C++</p>
+    </div>
+    <div class="conocimientos_item">
+      <img src="img/csharp.png" alt="C#">
+      <p>C#</p>
+    </div>
+    <div class="conocimientos_item">
+      <img src="img/sql.png" alt="SQL">
+      <p>SQL</p>
+    </div>
+    <div class="conocimientos_item">
+      <img src="img/html.png" alt="HTML">
+      <p>HTML</p>
+    </div>
+    <div class="conocimientos_item">
+      <img src="img/css.png" alt="CSS">
+      <p>CSS</p>
+    </div>
+    <div class="conocimientos_item">
+      <img src="img/js.png" alt="Javascript">
+      <p>JavaScript</p>
+    </div>
+    
+  </div>
+</section>
+<section class="proyectos" id="proyectos">
+  <h2 class="proyectos_titulo">Proyectos</h2>
+
+  <div class="proyectos_galeria">
+     <div class="proyecto_item">
+      <img src="img/gatitosenfuga.png" alt="Proyecto 3">
+      <h3 class="proyecto_nombre">Gatitos En Fuga</h3>
+      <p>Mi primer proyecto en Unity con C#, es un juego de plataformas donde la protagonista tiene que encontrar a sus gatitos.</p>
+      <a href="https://github.com/Danialb94/GatitosEnFuga" target="_blank">Ver en GitHub</a>
+    </div>
+    <div class="proyecto_item">
+      <img src="img/la_granja_de_joey.png" alt="Proyecto 1">
+      <h3 class="proyecto_nombre">La Granja de Joey</h3>
+      <p>Un minijuego de granja en 2D hecho en Unity con C#. Incluye sistema de inventario y tienda.</p>
+      <a href="https://play.unity.com/en/games/1815a1fb-edaf-4b6f-a432-79b5acd96805/la-granja-de-joey" target="_blank">Ver en Unity Play</a>
+    </div>
+
+    <div class="proyecto_item">
+      <img src="img/catalogo.png" alt="Proyecto 2">
+      <h3 class="proyecto_nombre">Catálogo</h3>
+      <p>Este proyecto fue realizado en equipo para la materia de Programación 3, es una aplicación de escritorio que maneja articulos en C# conectada a base de datos SQL.</p>
+      <a href="https://github.com/Danialb94/tp-winform-equipo-11A" target="_blank">Ver en GitHub</a>
+    </div>
+  </div>
+</section>
+<section class="formulario" id="contacto">
+  <div class="contenedor_formulario">
+    <form class="form">
+      <h2 class="Contacto_titulo">Contacto</h2>
+
+      <div class="input-box">
+        <label>Nombre:</label>
+        <input type="text" required>
+      </div>
+
+      <div class="input-box">
+        <label>Correo Electrónico:</label>
+        <input type="email" required>
+      </div>
+
+      <div class="input-box">
+        <label>Mensaje:</label>
+        <textarea required></textarea>
+      </div>
+
+      <button class="boton_enviar" type="submit">Enviar</button>
+    </form>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="footer_contenido">
+    <p>Contactame y seguime!</p>
+    <div class="redes">
+      <ul>
+        <li>
+          <a href="https://github.com/Danialb94" target="_blank">
+            <img class="iconoGrande" src="img/github.png" alt="Github">
+          </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/daniela-cristina-albarracin-42b860187?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
+            <img src="img/linkedin.png" alt="LinkedIn">
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</footer>
+</main>
+</body>
+</html>
+ 
